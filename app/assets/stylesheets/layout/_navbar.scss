@@ -17,6 +17,7 @@
   top: 0px;
   z-index: 1;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 /* Navbar logo */
@@ -58,7 +59,13 @@
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;
+  text-decoration: none;
 }
+
+.navbar-wagon-button a {
+  color: white;
+}
+
 .navbar-wagon-button:hover {
   color: white;
   background: #D23333;

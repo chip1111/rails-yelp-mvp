@@ -1,3 +1,55 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.card {
+  color: #434343;
+}
+body {
+  background-image: url("http://vignette2.wikia.nocookie.net/scribblenauts/images/5/58/Restaurant.png/revision/latest?cb=20130302155904"), url("https://i1.wp.com/undas.co/wp-content/uploads/2015/08/latest.png?fit=670%2C681&ssl=1");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 90% 100%, 10% 100%;
+}
+
+.restaurants {
+  margin-top: 90px;
+}
+
+.welcome-text {
+  font-size: 30px;
+}
+
+.extra-background {
+  background-image: url("http://www.clipartlord.com/wp-content/uploads/2015/02/signage2.png");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+}
+
+.restaurant-name a {
+  color: white;
+}
+
+
+
+.restaurant-button {
+  padding: 10px 20px;
+  border-radius: 20em;
+  line-height: 40px;
+  background-color: #D23333;
+  color: white;
+  font-size: 14px;
+  border: 2px solid #D23333;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#first-detail {
+  margin-top: 15px;
+}
+
+#last-detail {
+  margin-bottom: 15px;
+}
